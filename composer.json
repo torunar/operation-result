@@ -1,0 +1,33 @@
+{
+    "name": "torunar/operation-result",
+    "description": "Provides a component that can be used to store results (data and errors) of some operation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Schekotov",
+            "email": "torunar@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Torunar\\OperationResult\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Torunar\\OperationResult\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ],
+        "tests": [
+            "./vendor/bin/phpunit"
+        ]
+    }
+}
